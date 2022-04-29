@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Novack_Midterm</string>
+    <string name="no_of_records">No. of Records</string>
+    <string name="total_expenses">Total Expenses</string>
+    <string name="expenses_summary">Expenses Summary</string>
+    <string name="add_expense">Add Expense</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="set_date">Set Date</string>
+    <string name="pick_category">Pick Category</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="expense_name">Expense Name</string>
+    <string name="expense_amount">Expense amount</string>
+    <string name="name">Name:</string>
+    <string name="amount">Amount:</string>
+    <string name="none">None</string>
+    <string name="date">Date:</string>
+    <string name="category">Category:</string>
+    <string name="num_amount">\$%1$.2f</string>
+    <string name="expenses">Expenses</string>
+    <string name="add_new_expense">Add new Expense</string>
+    <string name="month_year">%1$s %2$d</string>
+</resources>

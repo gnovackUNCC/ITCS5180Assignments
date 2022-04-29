@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Group30_Inclass05</string>
+    <string name="app_details">App Details</string>
+    <string name="app_categories">App Categories</string>
+    <string name="welcome">Welcome</string>
+    <string name="genres">Genres</string>
+</resources>

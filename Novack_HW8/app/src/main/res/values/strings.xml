@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Novack_HW8</string>
+    <string name="api_key">AIzaSyCWgx5hYKbV9gh9sw3ZVltuRyAUtnIozh0</string>
+    <string name="navigate">Navigate</string>
+    <string name="clear_all">Clear All</string>
+    <string name="find_restaurants">Find Restaurants</string>
+    <string name="find_gas_stations">Find Gas Stations</string>
+    <string name="destination">Destination</string>
+    <string name="start">Start</string>
+</resources>

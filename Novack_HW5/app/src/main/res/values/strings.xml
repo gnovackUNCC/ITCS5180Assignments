@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Novack_HW5</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_key_access">LOGIN</string>
+    <string name="post_time">%1$s at %2$s</string>
+    <string name="showing_page">Showing Page %1$d out of %2$d</string>
+    <string name="welcome">Welcome %1$s</string>
+    <string name="delete">Are you sure you want to delete this post?</string>
+    <string name="caution">Caution!</string>
+    <string name="ok">OK</string>
+    <string name="empty_error">Text Box must not be empty!</string>
+    <string name="connection_error">Connection Error</string>
+    <string name="error">Error</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="enter_post">Enter Post</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="logout">Logout</string>
+    <string name="create_post">Create Post</string>
+    <string name="full_name">Full Name</string>
+</resources>

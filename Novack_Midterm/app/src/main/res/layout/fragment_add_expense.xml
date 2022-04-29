@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/add_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddExpenseFragment">
+
+    <Button
+        android:id="@+id/date_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/set_date"
+        app:layout_constraintEnd_toEndOf="@+id/add_exp_amount"
+        app:layout_constraintStart_toStartOf="@+id/cat_button"
+        app:layout_constraintTop_toBottomOf="@+id/add_exp_amount" />
+
+    <Button
+        android:id="@+id/cat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/pick_category"
+        app:layout_constraintEnd_toEndOf="@+id/add_exp_amount"
+        app:layout_constraintTop_toBottomOf="@+id/date_button" />
+
+    <Button
+        android:id="@+id/add_exp_submit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="256dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/add_exp_cancel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/add_exp_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="@string/expense_name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/add_exp_amount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/expense_amount"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/add_exp_name"
+        app:layout_constraintStart_toStartOf="@+id/add_exp_name"
+        app:layout_constraintTop_toBottomOf="@+id/add_exp_name"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/name"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/add_exp_name"
+        app:layout_constraintEnd_toStartOf="@+id/add_exp_name"
+        app:layout_constraintTop_toTopOf="@+id/add_exp_name" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="@string/amount"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/add_exp_amount"
+        app:layout_constraintEnd_toStartOf="@+id/add_exp_amount"
+        app:layout_constraintTop_toTopOf="@+id/add_exp_amount" />
+
+    <TextView
+        android:id="@+id/set_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/date_button"
+        app:layout_constraintStart_toStartOf="@+id/add_exp_amount"
+        app:layout_constraintTop_toTopOf="@+id/date_button" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/set_date"
+        app:layout_constraintEnd_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="@+id/set_date" />
+
+    <TextView
+        android:id="@+id/set_cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/cat_button"
+        app:layout_constraintStart_toStartOf="@+id/set_date"
+        app:layout_constraintTop_toTopOf="@+id/cat_button" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/category"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/set_cat"
+        app:layout_constraintEnd_toStartOf="@+id/set_cat"
+        app:layout_constraintTop_toTopOf="@+id/set_cat" />
+</androidx.constraintlayout.widget.ConstraintLayout>

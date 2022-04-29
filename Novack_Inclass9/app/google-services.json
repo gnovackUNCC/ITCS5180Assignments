@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "536546593619",
+    "project_id": "itcs5180-c3ada",
+    "storage_bucket": "itcs5180-c3ada.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536546593619:android:1f68d7f38d86053d2b6fa6",
+        "android_client_info": {
+          "package_name": "com.gnovack.novack_inclass9"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536546593619-8uus9empddmj4v9gg6bs025s7m32fhb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrJ34eXxdzfA2gFkeQaVnIMGCAH3LcO-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536546593619-8uus9empddmj4v9gg6bs025s7m32fhb0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

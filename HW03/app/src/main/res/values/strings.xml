@@ -1,0 +1,27 @@
+<!--
+HW03
+strings
+Gabriel Novack
+ -->
+<resources>
+    <string name="app_name">To Do List</string>
+    <string name="set_date">Set date</string>
+    <string name="cancel">CANCEL</string>
+    <string name="submit">SUBMIT</string>
+    <string name="priority">Priority:</string>
+    <string name="high">High</string>
+    <string name="medium">Medium</string>
+    <string name="low">Low</string>
+    <string name="date">Date:</string>
+    <string name="task_name">Task Name</string>
+    <string name="name">Name:</string>
+    <string name="view_tasks">VIEW TASKS</string>
+    <string name="create_a_task">CREATE A TASK</string>
+    <string name="upcoming_tasks">Upcoming Tasks</string>
+    <string name="task_information">Task Information</string>
+    <string name="num_tasks">You have %d tasks</string>
+    <string name="none">None</string>
+    <string name="none_available">No tasks available</string>
+    <string name="delete">Delete</string>
+    <string name="empty_fields">Fields should not be empty</string>
+</resources>

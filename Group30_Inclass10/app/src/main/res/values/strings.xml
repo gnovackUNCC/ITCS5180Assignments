@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Group30_Inclass10</string>
+    <string name="total_gpa">GPA: %1$.2f</string>
+    <string name="total_hours">Hours: %1$.1f </string>
+    <string name="course_hours_pl">%1$d Credit Hours</string>
+    <string name="course_hours">%1$d Credit Hour</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_course">Add Course</string>
+    <string name="grades">Grades</string>
+    <string name="course_number">Course Number</string>
+    <string name="course_name">Course Name</string>
+    <string name="credit_hours">Credit Hours</string>
+    <string name="course_grade">Course Grade</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="f">F</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="courses">Courses</string>
+</resources>
